@@ -1,0 +1,2651 @@
+{
+  "title": "Spoon Execution",
+  "started": 1502794089627,
+  "duration": 158,
+  "results": {
+    "emulator-5554": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Android SDK built for x86",
+        "manufacturer": "Google",
+        "version": "7.0",
+        "apiLevel": 24,
+        "isEmulator": true,
+        "avdName": "Nexus_5X_API_24"
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.example.user.myapplication.ExampleInstrumentedTest",
+            "methodName": "useAppContext"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 90
+                  }
+                },
+                "mMessage": "started: useAppContext(com.example.user.myapplication.ExampleInstrumentedTest)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 94
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 95
+                  }
+                },
+                "mMessage": "finished: useAppContext(com.example.user.myapplication.ExampleInstrumentedTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "com.example.user.myapplication.MainActivityEspressoTest",
+            "methodName": "ensureTextChangesWork"
+          },
+          {
+            "status": "PASS",
+            "duration": 2,
+            "screenshots": [],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 102
+                  }
+                },
+                "mMessage": "started: ensureTextChangesWork(com.example.user.myapplication.MainActivityEspressoTest)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 104
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "ActivityTestRule",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 105
+                  }
+                },
+                "mMessage": "Launching activity com.example.user.myapplication.MainActivity"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4188,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 107
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 203
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@8da85d in: PRE_ON_CREATE"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "art",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 229
+                  }
+                },
+                "mMessage": "Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 401
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@8da85d in: CREATED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 404
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@8da85d in: STARTED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 412
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@8da85d in: RESUMED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4189,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 675
+                  }
+                },
+                "mMessage": "Initialized EGL, version 1.4"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4189,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 675
+                  }
+                },
+                "mMessage": "Swap behavior 1"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 4172,
+                  "mTid": 4189,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 676
+                  }
+                },
+                "mMessage": "Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without..."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4189,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 55,
+                    "mMilli": 676
+                  }
+                },
+                "mMessage": "Swap behavior 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "InputManagerEventInjectionStrategy",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 211
+                  }
+                },
+                "mMessage": "Creating injection strategy with input manager."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 259
+                  }
+                },
+                "mMessage": "Performing \u0027type text(Hello from the Earth)\u0027 action on view with id: com.example.user.myapplication:id/inputField"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "UiControllerImpl",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 664
+                  }
+                },
+                "mMessage": "Injecting string: \"Hello from the Earth\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 667
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 683
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (H) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 743
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (H) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 825
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 877
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 887
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 889
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 893
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 916
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 926
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 935
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 941
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 945
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 56,
+                    "mMilli": 973
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 74
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 149
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 165
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 177
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 212
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 228
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 237
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 244
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 249
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 259
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 294
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 301
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 326
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 335
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 348
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 353
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 360
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 376
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 410
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 417
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (E) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 424
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (E) with key code (33) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 430
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 441
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 454
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 474
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 479
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 483
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 492
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 496
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 4172,
+                  "mTid": 4193,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 508
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (584243)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 516
+                  }
+                },
+                "mMessage": "Performing \u0027close keyboard\u0027 action on view with id: com.example.user.myapplication:id/inputField"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "CloseKeyboardAction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 534
+                  }
+                },
+                "mMessage": "Attempting to close soft keyboard, while it is not shown."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4172,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 57,
+                    "mMilli": 542
+                  }
+                },
+                "mMessage": "Performing \u0027single click\u0027 action on view with id: com.example.user.myapplication:id/button3"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 4172,
+                  "mTid": 4187,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 3,
+                    "mSecond": 58,
+                    "mMilli": 19
+                  }
+                },
+                "mMessage": "finished: ensureTextChangesWork(com.example.user.myapplication.MainActivityEspressoTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1502794091762,
+      "duration": 3,
+      "exceptions": []
+    },
+    "emulator-5556": {
+      "installFailed": false,
+      "deviceDetails": {
+        "model": "Android SDK built for x86",
+        "manufacturer": "Google",
+        "version": "7.0",
+        "apiLevel": 24,
+        "isEmulator": true,
+        "avdName": "Nexus_5_API_24"
+      },
+      "testResults": [
+        [
+          {
+            "className": "com.example.user.myapplication.ExampleInstrumentedTest",
+            "methodName": "useAppContext"
+          },
+          {
+            "status": "PASS",
+            "duration": 0,
+            "screenshots": [],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 27,
+                    "mMilli": 713
+                  }
+                },
+                "mMessage": "started: useAppContext(com.example.user.myapplication.ExampleInstrumentedTest)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 27,
+                    "mMilli": 852
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 27,
+                    "mMilli": 857
+                  }
+                },
+                "mMessage": "finished: useAppContext(com.example.user.myapplication.ExampleInstrumentedTest)"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "className": "com.example.user.myapplication.MainActivityEspressoTest",
+            "methodName": "ensureTextChangesWork"
+          },
+          {
+            "status": "PASS",
+            "duration": 42,
+            "screenshots": [],
+            "files": [],
+            "log": [
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 27,
+                    "mMilli": 956
+                  }
+                },
+                "mMessage": "started: ensureTextChangesWork(com.example.user.myapplication.MainActivityEspressoTest)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 27,
+                    "mMilli": 959
+                  }
+                },
+                "mMessage": "Activities that are still in CREATED to STOPPED: 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "ActivityTestRule",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 28,
+                    "mMilli": 51
+                  }
+                },
+                "mMessage": "Launching activity com.example.user.myapplication.MainActivity"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5983,
+                  "mAppName": "?",
+                  "mTag": "MonitoringInstrumentation",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 28,
+                    "mMilli": 112
+                  }
+                },
+                "mMessage": "execStartActivity(context, ibinder, ibinder, activity, intent, int, bundle"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 30,
+                    "mMilli": 877
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@cf6c8da in: PRE_ON_CREATE"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "art",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 31,
+                    "mMilli": 896
+                  }
+                },
+                "mMessage": "Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 40,
+                    "mMilli": 367
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@cf6c8da in: CREATED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 40,
+                    "mMilli": 477
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@cf6c8da in: STARTED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "LifecycleMonitor",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 40,
+                    "mMilli": 842
+                  }
+                },
+                "mMessage": "Lifecycle status change: com.example.user.myapplication.MainActivity@cf6c8da in: RESUMED"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 6037,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 45,
+                    "mMilli": 971
+                  }
+                },
+                "mMessage": "Initialized EGL, version 1.4"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 6037,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 45,
+                    "mMilli": 972
+                  }
+                },
+                "mMessage": "Swap behavior 1"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 5956,
+                  "mTid": 6037,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 45,
+                    "mMilli": 972
+                  }
+                },
+                "mMessage": "Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without..."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 6037,
+                  "mAppName": "?",
+                  "mTag": "OpenGLRenderer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 45,
+                    "mMilli": 972
+                  }
+                },
+                "mMessage": "Swap behavior 0"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 48,
+                    "mMilli": 629
+                  }
+                },
+                "mMessage": "Skipped 374 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 50,
+                    "mMilli": 359
+                  }
+                },
+                "mMessage": "Skipped 92 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "InputManagerEventInjectionStrategy",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 52,
+                    "mMilli": 482
+                  }
+                },
+                "mMessage": "Creating injection strategy with input manager."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 53,
+                    "mMilli": 117
+                  }
+                },
+                "mMessage": "Performing \u0027type text(Hello from the Earth)\u0027 action on view with id: com.example.user.myapplication:id/inputField"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "ERROR",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "MotionEvents",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 54,
+                    "mMilli": 106
+                  }
+                },
+                "mMessage": "Overslept and turned a tap into a long press"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 56,
+                    "mMilli": 241
+                  }
+                },
+                "mMessage": "Skipped 101 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 57,
+                    "mMilli": 12
+                  }
+                },
+                "mMessage": "Skipped 41 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "DEBUG",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "UiControllerImpl",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 57,
+                    "mMilli": 468
+                  }
+                },
+                "mMessage": "Injecting string: \"Hello from the Earth\""
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 57,
+                    "mMilli": 720
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 57,
+                    "mMilli": 968
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (H) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 58,
+                    "mMilli": 628
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (H) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 886
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 917
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 930
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 950
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 956
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 967
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 971
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (l) with key code (40) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 975
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 978
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 5,
+                    "mSecond": 59,
+                    "mMilli": 982
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 0,
+                    "mMilli": 659
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 1,
+                    "mMilli": 501
+                  }
+                },
+                "mMessage": "Skipped 47 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 2,
+                    "mMilli": 180
+                  }
+                },
+                "mMessage": "Skipped 39 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 2,
+                    "mMilli": 677
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 123
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (f) with key code (34) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 380
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 602
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 620
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 673
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (o) with key code (43) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 678
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 683
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (m) with key code (41) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 3,
+                    "mMilli": 689
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 4,
+                    "mMilli": 560
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 5,
+                    "mMilli": 767
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 39
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 73
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 101
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 104
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 105
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (e) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 114
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 6,
+                    "mMilli": 218
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character ( ) with key code (62) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "Choreographer",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 40
+                  }
+                },
+                "mMessage": "Skipped 38 frames!  The application may be doing too much work on its main thread."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 284
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 538
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (E) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 542
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (E) with key code (33) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 549
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (��) with key code (59) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 554
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 560
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (a) with key code (29) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 563
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 566
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (r) with key code (46) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 571
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 576
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (t) with key code (48) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 578
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "VERBOSE",
+                  "mPid": 5956,
+                  "mTid": 6099,
+                  "mAppName": "?",
+                  "mTag": "ESP_TRACE",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 582
+                  }
+                },
+                "mMessage": "EventInjector:Injecting event for character (h) with key code (36) downtime: (542291)"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 7,
+                    "mMilli": 840
+                  }
+                },
+                "mMessage": "Performing \u0027close keyboard\u0027 action on view with id: com.example.user.myapplication:id/inputField"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "WARN",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "CloseKeyboardAction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 8,
+                    "mMilli": 75
+                  }
+                },
+                "mMessage": "Attempting to close soft keyboard, while it is not shown."
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5956,
+                  "mAppName": "?",
+                  "mTag": "ViewInteraction",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 8,
+                    "mMilli": 398
+                  }
+                },
+                "mMessage": "Performing \u0027single click\u0027 action on view with id: com.example.user.myapplication:id/button3"
+              },
+              {
+                "mHeader": {
+                  "mLogLevel": "INFO",
+                  "mPid": 5956,
+                  "mTid": 5972,
+                  "mAppName": "?",
+                  "mTag": "TestRunner",
+                  "mTimestamp": {
+                    "mMonth": 8,
+                    "mDay": 15,
+                    "mHour": 13,
+                    "mMinute": 6,
+                    "mSecond": 10,
+                    "mMilli": 708
+                  }
+                },
+                "mMessage": "finished: ensureTextChangesWork(com.example.user.myapplication.MainActivityEspressoTest)"
+              }
+            ]
+          }
+        ]
+      ],
+      "started": 1502794091763,
+      "duration": 47,
+      "exceptions": []
+    }
+  }
+}

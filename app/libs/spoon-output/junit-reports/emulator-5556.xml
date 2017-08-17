@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.user.myapplication.test" tests="2" failures="0" errors="0" skipped="0" time="44.275" timestamp="2017-08-15T10:50:47" hostname="localhost">
+  <properties />
+  <testcase name="useAppContext" classname="com.example.user.myapplication.ExampleInstrumentedTest" time="0.028" />
+  <testcase name="ensureTextChangesWork" classname="com.example.user.myapplication.MainActivityEspressoTest" time="42.941" />
+</testsuite>
